@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Para Valeri 💚</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:linear-gradient(to bottom,#0b3d2e,#14532d,#1f6b45,#081c15);
+color:white;
+overflow-x:hidden;
+scroll-behavior:smooth;
+}
+
+/* PORTADA */
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+position:relative;
+}
+
+.hero h1{
+font-family:'Dancing Script',cursive;
+font-size:5rem;
+color:#ffd700;
+text-shadow:0 0 20px rgba(255,215,0,.8);
+}
+
+.hero p{
+font-size:1.3rem;
+max-width:700px;
+margin-top:20px;
+}
+
+.contador{
+margin-top:25px;
+font-size:1.8rem;
+font-weight:bold;
+color:#fff3a3;
+}
+
+.btn{
+margin-top:30px;
+padding:15px 35px;
+border:none;
+border-radius:50px;
+background:gold;
+color:#14532d;
+font-size:1.1rem;
+font-weight:bold;
+cursor:pointer;
+transition:.3s;
+}
+
+.btn:hover{
+transform:scale(1.08);
+}
+
+/* TARJETAS */
+
+.card{
+width:90%;
+max-width:1000px;
+margin:50px auto;
+background:rgba(255,255,255,.10);
+backdrop-filter:blur(12px);
+padding:35px;
+border-radius:25px;
+box-shadow:0 0 25px rgba(255,255,255,.08);
+}
+
+.card h2{
+text-align:center;
+margin-bottom:20px;
+color:#ffe58a;
+font-size:2rem;
+}
+
+.card p{
+line-height:1.9;
+font-size:1.1rem;
+text-align:center;
+}
+
+/* GALERIA */
+
+.gallery{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:25px;
+margin-top:20px;
+}
+
+.foto-romantica{
+width:280px;
+height:360px;
+object-fit:cover;
+border-radius:25px;
+border:4px solid gold;
+box-shadow:0 0 20px rgba(255,215,0,.4);
+transition:.4s;
+}
+
+.foto-romantica:hover{
+transform:scale(1.05);
+}
+
+/* MENSAJE */
+
+#mensaje{
+display:none;
+font-size:1.4rem;
+margin-top:20px;
+max-width:800px;
+text-align:center;
+}
+
+/* FINAL */
+
+#final{
+padding:100px 20px;
+text-align:center;
+background:rgba(0,0,0,.25);
+margin-top:60px;
+}
+
+#final h1{
+font-family:'Dancing Script',cursive;
+font-size:5rem;
+color:gold;
+margin-bottom:20px;
+}
+
+#final p{
+font-size:1.2rem;
+max-width:800px;
+margin:auto;
+line-height:2;
+}
+
+/* LIRIOS */
+
+.lily{
+position:fixed;
+font-size:35px;
+pointer-events:none;
+animation:flotar linear infinite;
+opacity:.8;
+z-index:1;
+}
+
+@keyframes flotar{
+0%{
+transform:translateY(110vh) rotate(0deg);
+}
+100%{
+transform:translateY(-120px) rotate(360deg);
+}
+}
+
+/* LUCIERNAGAS */
+
+.firefly{
+position:fixed;
+width:5px;
+height:5px;
+border-radius:50%;
+background:#fff59d;
+box-shadow:0 0 15px #fff59d;
+animation:brillo 2s infinite alternate;
+z-index:1;
+}
+
+@keyframes brillo{
+from{
+opacity:.3;
+}
+to{
+opacity:1;
+}
+}
+
+footer{
+padding:40px;
+text-align:center;
+font-size:1rem;
+opacity:.8;
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+<h1>Valeri 💚</h1>
+
+<p>
+Desde aquel 07 de mayo comenzó una de las historias más bonitas de mi vida.
+</p>
+
+<div class="contador" id="dias"></div>
+
+<button class="btn" onclick="mostrarMensaje()">
+💌 Abrir mi corazón
+</button>
+
+<div id="mensaje">
+
+Solo quería recordarte lo mucho que significas para mí.
+
+Eres esa persona que hace que mis días sean más bonitos con solo una sonrisa,
+la que me da tranquilidad cuando todo parece complicado y la que llena mi corazón
+de felicidad sin siquiera intentarlo. 💕
+
+</div>
+
+</section>
+
+<div class="card">
+
+<h2>👑 Para Ti, Mi Princesa</h2>
+
+<p>
+
+Solo quería recordarte lo mucho que significas para mí.
+
+Eres esa persona que hace que mis días sean más bonitos con solo una sonrisa,
+la que me da tranquilidad cuando todo parece complicado y la que llena mi corazón de felicidad sin siquiera intentarlo.
+
+<br><br>
+
+Me encanta tu forma de ser, tu dulzura, tu fuerza y cada pequeño detalle que te hace única.
+
+<br><br>
+
+A veces siento que no existen palabras suficientes para describir lo afortunado que soy de tenerte en mi vida.
+
+<br><br>
+
+Gracias por estar a mi lado, por tu amor, tu paciencia y por todos los momentos que compartimos.
+
+<br><br>
+
+Te amo muchísimo, mi niña hermosa, y cada día que pasa encuentro más razones para enamorarme de ti. 💕✨
+
+<br><br>
+
+Con todo mi amor,
+
+<br><br>
+
+❤️ Diego ❤️
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>📸 Nuestros Recuerdos</h2>
+
+<div class="gallery">
+
+<img src="valeri.jpg" class="foto-romantica">
+
+<img src="nosotros.jpg" class="foto-romantica">
+
+<img src="recuerdo.jpg" class="foto-romantica">
+
+</div>
+
+</div>
+
+<div class="card">
+
+<h2>✨ Lo Que Más Me Gusta De Ti ✨</h2>
+
+<p>
+
+💚 Tu sonrisa
+
+<br><br>
+
+💚 Tu forma de hacerme sentir especial
+
+<br><br>
+
+💚 Tu ternura
+
+<br><br>
+
+💚 Tu compañía
+
+<br><br>
+
+💚 Que seas tú
+
+</p>
+
+</div>
+
+<section id="final">
+
+<h1>Valeri 💚</h1>
+
+<p>
+
+Si tuviera que elegir de nuevo,
+te elegiría a ti una y otra vez.
+
+<br><br>
+
+Porque contigo los momentos simples se vuelven especiales,
+las risas duran más y los días tienen un brillo diferente.
+
+<br><br>
+
+Gracias por existir.
+
+<br><br>
+
+Te amo infinitamente. 💕✨
+
+<br><br>
+
+Tu príncipe,
+
+<br>
+
+Diego 👑💚
+
+</p>
+
+</section>
+
+<footer>
+
+Hecho con amor por Diego para Valeri 💚🐸✨
+
+</footer>
+
+<script>
+
+function mostrarMensaje(){
+document.getElementById("mensaje").style.display="block";
+}
+
+const inicio = new Date("2025-05-07");
+
+function actualizarDias(){
+
+const hoy = new Date();
+
+const diferencia = hoy - inicio;
+
+const dias = Math.floor(
+diferencia/(1000*60*60*24)
+);
+
+document.getElementById("dias").innerHTML =
+"💚 Llevamos " + dias + " días escribiendo nuestra historia 💚";
+}
+
+actualizarDias();
+
+/* LIRIOS */
+
+for(let i=0;i<40;i++){
+
+let lily=document.createElement("div");
+
+lily.classList.add("lily");
+
+lily.innerHTML="🪷";
+
+lily.style.left=Math.random()*100+"vw";
+
+lily.style.animationDuration=
+(10+Math.random()*10)+"s";
+
+document.body.appendChild(lily);
+
+}
+
+/* LUCIERNAGAS */
+
+for(let i=0;i<60;i++){
+
+let firefly=document.createElement("div");
+
+firefly.classList.add("firefly");
+
+firefly.style.left=Math.random()*100+"vw";
+
+firefly.style.top=Math.random()*100+"vh";
+
+document.body.appendChild(firefly);
+
+}
+
+</script>
+
+</body>
+</html>
